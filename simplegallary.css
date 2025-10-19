@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+body { 
+     background:radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("https://tse1.mm.bing.net/th/id/OIP.ADxbxfNWjCnbsap-1FQZlgHaEo?cb=12ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3");
+     background-attachment: fixed; 
+     color: #333; 
+     font-family: Arial, sans-serif;
+     padding: 3px
+    } 
+header { 
+      background-image:url("https://thvnext.bing.com/th/id/OIP.W8amXdl2qZUtEz_Qv5AXKwHaDt?w=288&h=175&c=7&r=0&o=7&cb=12&dpr=1.5&pid=1.7&rm=3&ucfimg=1"); 
+      color: white; 
+      text-align: center; 
+      padding: 80px 20px 100px; 
+      position: relative; 
+      clip-path: ellipse(120% 100% at 50% 0%); 
+    } 
+ 
+    header h1 { 
+      font-size: 2.8rem; 
+      letter-spacing: 1px; 
+      margin-bottom: 10px; 
+    } 
+ 
+    header p { 
+      font-size: 1.2rem; 
+      opacity: 0.9; 
+    }
+
+.navbar{
+    background-color:skyblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    margin: 0 ;
+    width: fit-content;
+    border-radius: 8px;
+}
+  .menu-container {
+    position: relative;
+    display: inline-block;
+  }
+  .menu-toggle,
+  .submenu-toggle {
+    display: none;
+  }
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+  }
+  .menu-button span {
+    width: 4px;
+    height: 4px;
+    background-color:silver;
+    border-radius: 50%;
+  }
+  .menu {
+    position: absolute;
+    right: 8;
+    top: 28px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: none;
+    width: 140px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+  }
+  .menu a, .menu label {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+  .menu a:hover, .menu label:hover {
+    background-color: #f0f0f0;
+  }
+  .submenu {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 160px;
+    margin-top: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .submenu a {
+    padding: 8px 12px;
+  }
+  .menu-toggle:checked + .menu-button + .menu {
+    display: block;
+  }
+  .submenu-toggle:checked + label + .submenu {
+    display: block;
+  }
+.gallary{
+    display: grid;
+    background-color:whitesmoke;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.gallary-item{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.gallary-item img{
+    width: 300px;
+    display: block;
+    height: 300px;
+    object-fit: cover;
+    transition: transition 0.3s;
+}
+.gallary-item:hover img{
+    transform: scale(1.1);
+}
+.gallary-item:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+  marquee img {
+    height: 180px;
+    margin-right: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+  }
+  .marquee-wrapper {
+    background: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+
