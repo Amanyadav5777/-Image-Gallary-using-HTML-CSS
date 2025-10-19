@@ -1,0 +1,189 @@
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>My Institute Website</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+  <style> 
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box; 
+      font-family: 'Poppins', sans-serif; 
+    } 
+    body { 
+     background: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("https://almamatters.io/media/uploads/files/college/himalayan-institute-technology-management-lucknow/campus.jpg");
+    background-attachment: fixed; 
+     color: #333; 
+    } 
+    header {  
+      color: white;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      text-align: center; 
+      height:400px;
+      padding: 35px 10px; 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.25); 
+    } 
+    header h1 { 
+      font-size: 2.3rem; 
+      margin-bottom: 8px; 
+      letter-spacing: 1px; 
+    } 
+ 
+    header p { 
+      font-size: 1.1rem; 
+    } 
+    nav { 
+      background: #4b0082; 
+      text-align: center; 
+      padding: 10px 0; 
+    } 
+    nav a { 
+      color: #fff; 
+      text-decoration: none; 
+      padding: 10px 25px; 
+      display: inline-block; 
+      font-weight: 500; 
+      transition: 0.3s; 
+    } 
+    nav a:hover { 
+      background: #ff6f61; 
+      border-radius: 8px; 
+    } 
+    .container { 
+      width: 100%; 
+      padding: 50px 90px;
+      background-color: white; 
+    } 
+    h2 { 
+      text-align: center; 
+      color: #6a11cb; 
+      margin-bottom: 30px; 
+      font-size: 1.9rem; 
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+    } 
+    .departments { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); 
+      gap: 25px; 
+    } 
+    .dept-card { 
+      background: #fff; 
+      border-top: 5px solid #ff6f61; 
+      padding: 20px; 
+      border-radius: 15px; 
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+      transition: 0.3s; 
+      overflow: hidden; 
+    } 
+    .dept-card:hover { 
+      transform: translateY(-6px); 
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
+      border-top-color: #6a11cb; 
+    } 
+    .dept-card img { 
+      width: 100%; 
+      height: 160px; 
+      object-fit: cover; 
+      border-radius: 10px; 
+      margin-bottom: 12px; 
+    } 
+    .dept-card h3 { 
+      color: #4b0082; 
+      margin-bottom: 10px; 
+      font-size: 1.2rem; 
+    } 
+    .dept-card p { 
+      color: #555; 
+      line-height: 1.6; 
+      font-size: 15px; 
+    } 
+    footer { 
+      background: linear-gradient(135deg, #6a11cb, #ff6f61); 
+      color: white; 
+      text-align: center; 
+      padding: 15px; 
+      font-size: 14px; 
+      letter-spacing: 0.5px; 
+    } 
+    @media (max-width: 768px) { 
+      header h1 { 
+        font-size: 1.8rem; 
+      } 
+      .dept-card { 
+        padding: 15px; 
+      } 
+      .dept-card img { 
+        height: 140px; 
+      } 
+    } 
+  </style> 
+</head> 
+<body>  
+ 
+  <nav> 
+    <a href="#">Home</a> 
+    <a href="#">About</a> 
+    <a href="#">Departments</a> 
+    <a href="#">Admissions</a> 
+    <a href="#">Contact</a> 
+  </nav> 
+   <header> 
+    <div class="sub-header">
+    <h1>Himalayan group of institute</h1> 
+    <p>Shaping Future Innovators & Leaders</p> 
+    </div>
+  </header>
+  <div class="container"> 
+    <h2>Our Departments</h2> 
+    <div class="departments"> 
+ 
+      <div class="dept-card"> 
+        <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=800&q=60" 
+alt="Computer Science"> 
+        <h3>Computer Science & Engineering</h3> 
+        <p>The CSE Department offers programs in programming, AI, and data science. Students gain strong problem-solving and 
+innovation skills.</p> 
+      </div> 
+ 
+      <div class="dept-card"> 
+        <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=800&q=60" 
+alt="Information Technology"> 
+        <h3>Information Technology</h3> 
+        <p>The IT Department focuses on modern computing, cybersecurity, and web technologies, preparing students for tech-driven 
+industries.</p> 
+      </div> 
+ 
+      <div class="dept-card"> 
+        <img src="https://tse4.mm.bing.net/th/id/OIP.xJPvpBR8ZvVGMGjDtwPTqQHaEo?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" 
+alt="Electronics and Communication"> 
+        <h3>Electronics & Communication</h3> 
+        <p>ECE students explore circuits, embedded systems, and wireless communication to develop next-gen electronic 
+solutions.</p> 
+      </div> 
+ 
+      <div class="dept-card"> 
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=60" 
+alt="Mechanical Engineering"> 
+        <h3>Mechanical Engineering</h3> 
+        <p>Students learn robotics, thermodynamics, and CAD design to innovate in automotive and manufacturing technologies.</p> 
+      </div> 
+ 
+      <div class="dept-card"> 
+        <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=800&q=60" alt="Civil 
+Engineering"> 
+        <h3>Civil Engineering</h3> 
+        <p>This department trains students in building design, construction, and sustainable development for future infrastructure 
+growth.</p> 
+      </div> 
+ 
+    </div> 
+  </div> 
+  <footer> 
+    © 2025 Lotus Institute of Technology | Designed by Student 
+  </footer> 
+</body> 
+</html> 
